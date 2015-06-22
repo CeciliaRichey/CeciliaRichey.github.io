@@ -1,0 +1,1 @@
+jQuery(document).ready(function(n){return n(".sharing li").mouseenter(function(){return n(this).css("background-color","#fb566d")}),n(".sharing li").mouseleave(function(){return n(this).css("background","#transparent")})});
