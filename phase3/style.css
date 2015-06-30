@@ -1,0 +1,235 @@
+@import url(http://fonts.googleapis.com/css?family=Teko|Titillium+Web:400,300);
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 14, components/sass/main.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 35, components/sass/main.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 39, components/sass/main.scss */
+body {
+  line-height: 1;
+}
+
+/* line 42, components/sass/main.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 45, components/sass/main.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 48, components/sass/main.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 54, components/sass/main.scss */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+/* line 64, components/sass/main.scss */
+.dark {
+  color: #ffffff;
+  background-color: #352d2f;
+}
+
+/* line 69, components/sass/main.scss */
+.light {
+  color: #30282a;
+  background-color: #fff;
+}
+
+/* line 74, components/sass/main.scss */
+.red {
+  color: #fff;
+  background-color: #f63c3c;
+}
+
+/* line 80, components/sass/main.scss */
+header img {
+  float: left;
+}
+
+/* line 84, components/sass/main.scss */
+header nav {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* line 89, components/sass/main.scss */
+body {
+  font-family: 'Titillium Web';
+  font-weight: 300;
+  color: #30282a;
+  font-size: 18px;
+}
+
+/* line 96, components/sass/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Teko;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* line 102, components/sass/main.scss */
+h1:not(.list-group), h2:not(.list-group), h3:not(.list-group), h4:not(.list-group), h5:not(.list-group), h6:not(.list-group), p:not(.list-group) {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 107, components/sass/main.scss */
+li:not(.different)
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 115, components/sass/main.scss */
+button {
+  font-size: 20px;
+  font-family: Teko;
+  letter-spacing: 2px;
+  margin: 20px auto 20px auto;
+}
+
+/* line 122, components/sass/main.scss */
+h1 {
+  font-size: 120px;
+}
+
+/* line 126, components/sass/main.scss */
+h2 {
+  font-size: 80px;
+}
+
+/* line 130, components/sass/main.scss */
+h3 {
+  font-size: 60px;
+}
+
+/* line 134, components/sass/main.scss */
+h4 {
+  font-size: 40px;
+}
+
+/* line 138, components/sass/main.scss */
+h5 {
+  font-size: 36px;
+}
+
+/* line 142, components/sass/main.scss */
+h6 {
+  font-size: 30px;
+}
+
+/* line 146, components/sass/main.scss */
+blockquote {
+  font-size: 28px;
+}
+
+/* line 154, components/sass/main.scss */
+.social_media {
+  float: right;
+}
+
+/* line 158, components/sass/main.scss */
+.introduction {
+  color: #ffffff;
+  background-color: #352d2f;
+}
+
+/* line 163, components/sass/main.scss */
+.call-to-action, .introduction, .stats, .testimonials, article, .journal h6 {
+  text-align: center;
+}
+
+/* line 167, components/sass/main.scss */
+.infinity-spaces {
+  padding-top: 300px;
+}
+
+/* line 171, components/sass/main.scss */
+.highlighted-projects h2 {
+  padding-bottom: 100px;
+}
+
+/* line 175, components/sass/main.scss */
+.list-group, .list-group-item {
+  border: none;
+}
+
+/* line 179, components/sass/main.scss */
+.sage-logo-large img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 184, components/sass/main.scss */
+.fa {
+  font-size: 40px;
+}
+
+/* line 188, components/sass/main.scss */
+.highlighted-projects.color-block {
+  display: inline-block;
+  background-color: #352d2f;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  float: left;
+}
+
+/* line 196, components/sass/main.scss */
+.highlighted-projects.color-block-dark {
+  display: inline-block;
+  background-color: #30282a;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  float: left;
+}
+
+/* line 205, components/sass/main.scss */
+.journal.color-block.list-group-item {
+  background-color: #352d2f;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
