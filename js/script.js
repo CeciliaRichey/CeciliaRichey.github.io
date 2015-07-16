@@ -1,1 +1,1 @@
-jQuery(document).ready(function(n){return n(".sharing li").mouseenter(function(){return n(this).css("background-color","#fb566d")}),n(".sharing li").mouseleave(function(){return n(this).css("background","#transparent")})});
+jQuery(document).ready(function(r){return r(".sharing li").mouseenter(function(){return r(this).css("background-color","#fb566d")}),r(".sharing li").mouseleave(function(){return r(this).css("background","#transparent")}),r("header").parallax("50%",.5),r(".about-me").parallax("50%",.5)});
